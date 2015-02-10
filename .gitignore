@@ -1,3 +1,5 @@
+*~
+
 # Compiled Object files
 *.slo
 *.lo
@@ -26,3 +28,29 @@
 *.exe
 *.out
 *.app
+
+# http://www.gnu.org/software/automake
+
+Makefile.in
+Makefile
+
+# # http://www.gnu.org/software/autoconf
+
+autom4te.cache
+aclocal.m4
+/compile
+/configure
+/depcomp
+/install-sh
+/missing
+stamp-h1
+autoscan.log
+config.h
+config.log
+config.status
+.dirstamp
+**/.deps
+
+# Gest
+gtest/libtool
+gtest/scripts/gtest-config
