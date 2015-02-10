@@ -12,6 +12,7 @@ AC_CONFIG_HEADER([config.h])
 # Checks for programs.
 AC_PROG_CXX
 AC_PROG_CC
+AC_LANG([C++])
 
 # Checks for libraries.
 
@@ -25,6 +26,7 @@ AX_CXX_COMPILE_STDCXX_11
 # Checks for library functions.
 
 AC_CONFIG_FILES([Makefile
-                 src/Makefile])
+                 src/Makefile
+                 test/Makefile])
 AC_CONFIG_SUBDIRS([gtest])
 AC_OUTPUT

@@ -45,6 +45,7 @@ aclocal.m4
 /missing
 stamp-h1
 autoscan.log
+test-driver
 config.h
 config.log
 config.status
