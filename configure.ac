@@ -4,15 +4,17 @@
 AC_PREREQ([2.69])
 AC_INIT([gtest-demo], [1.0], [haruka@redhat.com])
 AC_CONFIG_MACRO_DIR([m4])
+AC_CONFIG_AUX_DIR([build-aux])
+AC_CONFIG_HEADERS([build-aux/config.h])
 
 AM_INIT_AUTOMAKE([foreign])
 AC_CONFIG_SRCDIR([src/demo.cc])
-AC_CONFIG_HEADER([config.h])
 
 # Checks for programs.
 AC_PROG_CXX
 AC_PROG_CC
 AC_LANG([C++])
+AC_PROG_LIBTOOL
 
 # Checks for libraries.
 

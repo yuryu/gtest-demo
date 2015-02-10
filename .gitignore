@@ -53,7 +53,9 @@ config.log
 config.status
 .dirstamp
 **/.deps
+/build-aux
 
 # Gest
 gtest/libtool
 gtest/scripts/gtest-config
+gtest/build-aux/compile

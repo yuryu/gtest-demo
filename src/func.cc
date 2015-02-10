@@ -1,5 +1,3 @@
-#include "../config.h"
-
 #include "func.h"
 
 int add(int x, int y) {
