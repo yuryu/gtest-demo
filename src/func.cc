@@ -5,6 +5,6 @@ int add(int x, int y) {
 }
 
 int sub(int x, int y) {
-    return 0;
+    return x - y;
 }
 
